@@ -6,10 +6,8 @@
  * To change this template use File | Settings | File Templates.
  */
 define([], function(){
-    return (
 
 //(
-    function(){
         "use strict";
 
         var $lastElement;
@@ -24,10 +22,7 @@ define([], function(){
             $element.css("background-color", "yellow");
         }
 
-        // This has to be removed...
-//        window.highlight = highlight;
-    }
-)
+       return highlight;
 //();
 
 });
